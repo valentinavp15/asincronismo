@@ -14,5 +14,8 @@ setTimeout(function(){
 
 // Alt + 96 ``
 function gretting(name){
-    console.log(`Hola ${name}`)
+    console.log(`Hola ${name}`);
 }
+
+// Primero se llama la función luego el tiempo (2segundos) y el argumento de la funcion
+setTimeout(gretting, 2000, 'Valentina');

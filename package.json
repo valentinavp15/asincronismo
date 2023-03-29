@@ -11,5 +11,8 @@
     "asincronismo"
   ],
   "author": "Valentina Vargas vvargpr@gmail.com",
-  "license": " MIT"
+  "license": " MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
