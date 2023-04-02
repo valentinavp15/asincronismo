@@ -2,7 +2,7 @@ const fnAsync = () => {
     return new Promise((resolve, reject) => {
         (true)
             ? setTimeout(() => resolve('async'), 2000)
-            : reject(New Error ('Error'));
+            : reject(new Error ('Error'));
     });
 }
 
